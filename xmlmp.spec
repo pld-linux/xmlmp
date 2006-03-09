@@ -19,7 +19,7 @@ complying with it to either Unix manpages or HTML.
 
 %description -l pl
 xmlmp jest narzêdziem do formatowania stron podrêcznika z plików XML.
-Zawiera DTD (Document Type Definition, czyli definicja typu dokumentu)
+Zawiera DTD (Document Type Definition, czyli definicjê typu dokumentu)
 dla xmlmp 1.x i filtr konwertuj±cy zgodny z nim dokument do strony 
 podrêcznika lub pliku HTML.
 
