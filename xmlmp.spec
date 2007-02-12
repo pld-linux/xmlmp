@@ -1,5 +1,5 @@
 Summary:	xmlmp facilitates authoring of Unix manpages using XML
-Summary(pl.UTF-8):   xmlmp - narzędzie do tworzenia stron podręcznika z plików XML
+Summary(pl.UTF-8):	xmlmp - narzędzie do tworzenia stron podręcznika z plików XML
 Name:		xmlmp
 Version:	1.1
 Release:	0.1
