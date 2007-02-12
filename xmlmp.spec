@@ -1,5 +1,5 @@
 Summary:	xmlmp facilitates authoring of Unix manpages using XML
-Summary(pl):	xmlmp - narzêdzie do tworzenia stron podrêcznika z plików XML
+Summary(pl.UTF-8):   xmlmp - narzÄ™dzie do tworzenia stron podrÄ™cznika z plikÃ³w XML
 Name:		xmlmp
 Version:	1.1
 Release:	0.1
@@ -17,11 +17,11 @@ xmlmp facilitates authoring of Unix manpages using XML. It defines
 the xmlmp 1.x DTD and provides filters that convert documents 
 complying with it to either Unix manpages or HTML.
 
-%description -l pl
-xmlmp jest narzêdziem do formatowania stron podrêcznika z plików XML.
-Zawiera DTD (Document Type Definition, czyli definicjê typu dokumentu)
-dla xmlmp 1.x i filtr konwertuj±cy zgodny z nim dokument do strony 
-podrêcznika lub pliku HTML.
+%description -l pl.UTF-8
+xmlmp jest narzÄ™dziem do formatowania stron podrÄ™cznika z plikÃ³w XML.
+Zawiera DTD (Document Type Definition, czyli definicjÄ™ typu dokumentu)
+dla xmlmp 1.x i filtr konwertujÄ…cy zgodny z nim dokument do strony 
+podrÄ™cznika lub pliku HTML.
 
 %prep
 %setup -q
