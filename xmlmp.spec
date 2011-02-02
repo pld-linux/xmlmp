@@ -9,18 +9,20 @@ Source0:	http://efault.net/npat/hacks/xmlmp/dist/%{name}-%{version}.tar.gz
 # Source0-md5:	e998cdc06d37e837e620586fef2e88f4
 URL:		http://npat.efault.net/hacks/xmlmp/
 BuildRequires:	python-devel >= 2.0.0
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq  python-libs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xmlmp facilitates authoring of Unix manpages using XML. It defines 
-the xmlmp 1.x DTD and provides filters that convert documents 
-complying with it to either Unix manpages or HTML.
+xmlmp facilitates authoring of Unix manpages using XML. It defines the
+xmlmp 1.x DTD and provides filters that convert documents complying
+with it to either Unix manpages or HTML.
 
 %description -l pl.UTF-8
 xmlmp jest narzędziem do formatowania stron podręcznika z plików XML.
 Zawiera DTD (Document Type Definition, czyli definicję typu dokumentu)
-dla xmlmp 1.x i filtr konwertujący zgodny z nim dokument do strony 
+dla xmlmp 1.x i filtr konwertujący zgodny z nim dokument do strony
 podręcznika lub pliku HTML.
 
 %prep
@@ -33,7 +35,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}
 python setup.py install \
         --root=$RPM_BUILD_ROOT \
 	--install-data=%{_datadir}
-	
+
 rm -rf $RPM_BUILD_ROOT%{py_sitescriptdir}/%{name}/*.py
 
 %clean
